@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Webpage With Style</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="bbc.css" />
+        
+        <style type="text/css">
+            #topbar {
+                width: 1000px;
+                margin: 0 auto;
+                background-color;
+                border-bottom: 1px #CCCCCC solid;
+                height: 40px;
+            }
+            
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            
+            #logo {
+                margin-top: 8px;
+                margin-right: 8px;
+                width: 100px;
+                float: left;
+            }
+            
+            .topbar-section {
+                float: left;
+                border-left: 1px #CCCCCC solid;
+                height: 100%;
+            }
+            
+            #signin-image {
+                width: 24px;
+                margin: 8px 12px;
+                float: left;
+                float: left;
+            }
+            
+            #signin-text {
+                padding-right: 50px;
+                font-weight: bold;
+                font-size: 90%;
+                position: relative;
+                top: 11px;
+            }
+            
+            .topbar-menu {
+                font-weight: bold;
+                font-size: 90%;
+                padding: 13px 15px 0 15px;
+                height: 27px;
+            }
+            
+            #more-arrow {
+                margin-left: 15px;
+            }
+            
+            #search-box {
+                background-color: #E4E4E4;
+                border: none;
+                font-weight: bold;
+                font-size: 13px;
+                padding: 5px;
+                margin: 7px 0 5px 5px;
+                float: left;
+            }
+            
+            #magnifying-glass {
+                background-color: #E4E4E4;
+                background-position: center;
+                background-size: 16px 16px;
+                height: 17px;
+                margin-top: 7px;
+                padding: 4px;
+            }
+        
+        </style>
+    </head>
+
+    <body>
+        <div id="topbar">
+            <img id="logo" src="images/logo.png">
+            <div id="signin-div" class="topbar-section">
+                <img id="signin-image" src="images/signinimage.png">
+                <span id="signin-text">Sign in</span>
+            </div>
+            
+            <div class="topbar-section topbar-menu">
+                News
+            </div>
+            
+            <div class="topbar-section topbar-menu">
+                Sport            
+            </div>
+            <div class="topbar-section topbar-menu">
+                Weather
+            </div>
+            
+            <div class="topbar-section topbar-menu">
+                Shop            
+            </div>
+            <div class="topbar-section topbar-menu">
+                Earth
+            </div>
+            
+            <div class="topbar-section topbar-menu">
+                Travel          
+            </div>
+            
+            <div class="topbar-section topbar-menu">
+                More
+                <img id="more-arrow" src="images/more-arrow.png">
+            </div>
+            <div class="topbar-section">
+                <input id="search-box" type="text" value="Search">
+                <input type="image" id="magnifying-glass" src="images/gel-icon-search-dark.svg">
+            </div>
+        </div>
+    </body>
+
+</html>
